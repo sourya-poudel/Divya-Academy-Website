@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>DIVYA ACADEMY</title>
+	<link rel="icon" href="images/favicon.png">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+<script src="https://kit.fontawesome.com/9de93d4c2b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<section class="sub-header">
+	<nav>
+		<a href="index.html"><img src="images/logo.png"></a>
+		<div class="nav-links" id="navLinks">	
+			<i class="fa fa-times"onclick="hideMenu()"></i>
+
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li class="active"><a href="about.html">PROGRAM</a></li>
+				<li><a href="course.html">COURSE</a></li>
+				<li><a href="blog.html">BLOG</a></li>
+				<li><a href="contact.html">CONTACT</a></li>
+			</ul>
+		</div>
+		<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+<h1>SCHOOL GALA DAY-2</h1>
+</section>
+
+<!-------- about us content--------->
+
+<section class="about-us">
+
+	<div class="row">
+	<div class="about-col">
+		<h1>What Its All About</h1>
+		<p>The school gala day at Divya Academy is one of the most exciting and eagerly awaited events of the year for both students and teachers alike. The school campus is filled with a carnival-like atmosphere, with colorful decorations and an array of stalls selling delicious food, drinks, and merchandise. The gala day is an excellent opportunity for students to showcase their creativity, talent, and team spirit. The event is organized and managed by the school administration and the students themselves, who take on various roles such as organizing stalls, managing games, and entertainment shows.</p>
+		<a href="blogg.html" class="hero-btn red-btn">Read More</a>
+	</div>
+	<div class="about-col">
+		<img src="images/about.jpg">
+	</div>
+	</div>
+</section>
+
+
+
+
+<!--------- Footer -------------->
+
+<section class="footer">
+	<h4>ABOUT US</h4>
+	<p>We are one of the best school in Devchuli providing students a homely<br>and loving environment to learn in for the past 24 years w/ the motto<br> "COMMUNITY FOR LEARNERS".</p>
+	<div class="icons">
+		<i class="fa fa-facebook"></i>
+		<i class="fa fa-youtube"></i>
+	</div>
+	<p>Made with love by Sourya Poudel</p>
+</section>
+
+
+
+<!--------JavaScript for Toggle Menu-------->
+<script>
+	
+	var navLinks = document.getElementById("navLinks");
+	function showMenu() {
+		navLinks.style.right = "0";
+	}
+	function hideMenu() {
+		navLinks.style.right = "-200px";
+	}
+
+</script>
+
+
+</html>
+</body>
